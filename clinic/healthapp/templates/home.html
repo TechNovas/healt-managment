@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/healthcare/clinic/static/healthapp/style.css">
+
+    <style media="screen">
+        .jumbotron {
+          margin-top: 0px;
+          margin-bottom: 0px;
+          background-image: url("/healthcare/clinic/static/healthapp/images/bg.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+    
+        .jumbotron h5,
+        h3 {
+          text-align: center;
+        }
+    
+    
+        .alert {
+          margin: 0px;
+        }
+    
+    
+    
+        .glow {
+          font-size: 50px;
+          color: white;
+          text-align: center;
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+          -moz-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+        }
+        .bs-example {
+      margin: 0px;
+
+    }
+
+    .navbar-brand {
+      font-size: 20px;
+      font-family: sans-serif;
+
+    }
+    
+        @-webkit-keyframes glow {
+          from {
+            text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+          }
+    
+          to {
+            text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+          }
+        }
+      </style>
+</head>
+
+<body>
+    <div class="bs-example">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background:#337AB7;">
+          <a href="/" class="navbar-brand">Hospital Management</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+    
+              <a href="/adminclick" class="nav-item nav-link">Admin</a>
+              <a href="/doctorclick" class="nav-item nav-link">Doctor</a>
+              <a href="/patientclick" class="nav-item nav-link">Patient</a>
+    
+    
+            </div>
+    
+            <div class="navbar-nav">
+              <a href="/aboutus" class="nav-item nav-link">About Us</a>
+              <a href="/contactus" class="nav-item nav-link">Contact Us</a>
+            </div>
+    
+          </div>
+        </nav>
+      </div>
+      <br>
+      <br>
+      
+      <div class="jumbotron" style="margin-bottom: 0px; margin-top: 0px;">
+        <br>
+        <h5 class="display-3 glow">You’ll Love the Way We Care for You</h5>
+        <br><br><br><br><br>
+        <p>
+        <h3>Emergency ?</h3>
+      
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="/patientclick" role="button">Take Appointment</a>
+        </p>
+        <br><br>
+      </div>  
+      
+</body>
+</html>
