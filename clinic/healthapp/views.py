@@ -1,5 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
 def home(request):
-    return render(request, 'home.html', {})
+    return render(request, 'index.html', {})
+
+def about(request):
+    return render(request, 'login.html', {})
+
+def m3(request):
+    return render(request, 'm3.html', {})
